@@ -1,4 +1,4 @@
-name: cd
+name: publish
 
 on:
   push:
@@ -39,4 +39,5 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.VUE_CHAT }}
-          publish_dir: ./dist
+          publish_branch: gh-pages
+          publish_dir: ./docs   
