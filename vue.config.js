@@ -5,7 +5,7 @@ module.exports = defineConfig({
   transpileDependencies: [
     'vuetify'
   ],
-  publicPath: isProd ? '/' : '/',
+  publicPath: isProd ? '/vue-chat' : '/',
   outputDir: 'docs',
   filenameHashing: false,
   productionSourceMap: false
