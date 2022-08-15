@@ -5,7 +5,7 @@ import firebase from 'firebase';
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
-const firebaseConfig = {
+export const firebaseConfig = {
   apiKey: process.env.VUE_API_KEY,
   authDomain: process.env.VUE_AUTH_DOMAIN,
   projectId: process.env.VUE_PROJECT_ID,
